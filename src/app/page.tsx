@@ -22,7 +22,7 @@ return (
       >
       <div className="max-w-2xl text-center">
          <p className="text-lg text-black">
-  "Já estamos contando os minutos para esse dia tão especial! Contamos com a presença de vocês em Itaipava para tornar esse momento ainda mais inesquecível. Role a página e confirme sua presença no RSVP. Esperamos por vocês!"<br/>Julia e Guilherme
+  Já estamos contando os minutos para esse dia tão especial! Contamos com a presença de vocês em Itaipava para tornar esse momento ainda mais inesquecível. Role a página e confirme sua presença no RSVP. Esperamos por vocês!<br/>Julia e Guilherme
 </p>
       </div>
    </section>
