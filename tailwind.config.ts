@@ -11,6 +11,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'custom-green': '#bcd7b4', // Add your custom color here
+      },
+        fontFamily: {
+        greatVibes: ["Great Vibes", "cursive"],
       },
     },
   },
