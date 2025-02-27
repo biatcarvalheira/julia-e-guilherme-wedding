@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
-          <Link href="#rsvp" className="text-gray-700 hover:text-gray-900">
+          <Link href="/#rsvp_main" className="text-gray-700 hover:text-gray-900">
             RSVP
           </Link>
           <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
@@ -25,14 +25,14 @@ const Navbar: React.FC = () => {
           <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
             Programação
           </Link>
-          <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
-            Hoteis
+          <Link href="/#hoteis" className="text-gray-700 hover:text-gray-900">
+            Hotel
           </Link>
           <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
             Transporte
           </Link>
-          <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
-            Make & Penteado
+          <Link href="/#hair-makeup" className="text-gray-700 hover:text-gray-900">
+            Salão
           </Link>
           <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
             Lista de Presentes
@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
             <Link href="#hero" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               Início
             </Link>
-            <Link href="#rsvp" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
+            <Link href="/#rsvp_main" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               RSVP
             </Link>
             <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
@@ -68,14 +68,14 @@ const Navbar: React.FC = () => {
             <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               Programação
             </Link>
-            <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
-              Hoteis
+            <Link href="/#hoteis" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
+              Hotel
             </Link>
             <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               Transporte
             </Link>
-            <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
-              Make & Penteado
+            <Link href="/#hair-makeup" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
+              Salão
             </Link>
             <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               Lista de Presentes
