@@ -121,7 +121,7 @@ return (
   {/* Section Title */}
 <h2
   className="text-5xl font-bold text-[#f06faa] mt-[90px]"
-  style={{ marginBottom: '-80px' }} // Change '10px' to your desired value
+  style={{ marginBottom: '30px' }} // Change '10px' to your desired value
 >
   Salão
 </h2>
@@ -129,7 +129,7 @@ return (
 
   {/* Rectangular Content Box, Positioned Further Down */}
   <div  
-    className="relative z-10 w-full max-w-2xl text-center px-8 py-4 bg-cover bg-center mt-48"
+    className="relative z-10 w-full max-w-lg text-center p-6 bg-cover bg-center"
     style={{ backgroundImage: "url('/images/hoteis_overlay.png')" }}
   >
 
@@ -178,6 +178,46 @@ return (
           className="text-[#f06faa] hover:text-yellow-500 transition"
         >
           Natália Sixel - (21) 98217-3750
+        </a>
+      </li>
+         <li>
+        <a
+          href="https://www.instagram.com/biancamarques.makeup/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#f06faa] hover:text-yellow-500 transition"
+        >
+          Bianca Marques - (24) 98805-5689
+        </a>
+      </li>
+         <li>
+        <a
+          href="https://www.instagram.com/beatrizbarrosomakeup/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#f06faa] hover:text-yellow-500 transition"
+        >
+          Beatriz Barroso - (24) 98819-7449
+        </a>
+      </li>
+         <li>
+        <a
+          href="https://www.instagram.com/lucianarodriguesmakeup/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#f06faa] hover:text-yellow-500 transition"
+        >
+          Luciana Rodrigues - (24) 99265-8580
+        </a>
+      </li>
+         <li>
+        <a
+          href="https://www.instagram.com/isabellaschimithmakeup/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#f06faa] hover:text-yellow-500 transition"
+        >
+          Isabella Schimith - (22) 98800-8933
         </a>
       </li>
     </ul>
