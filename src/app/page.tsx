@@ -35,13 +35,13 @@ return (
   className="h-screen flex flex-col items-center justify-center text-white bg-cover bg-center 
     sm:bg-[url('/images/hotel_desktop_background.gif')] bg-[url('/images/hotel_mobile_background.png')] px-6"
 >
- <h2 className="text-5xl font-bold mb-3 text-[#045005]">Hotel</h2>
+
   {/* Smaller Content Box (No Background) */}
   <div  className="relative z-10 w-full max-w-lg text-center p-6 bg-cover bg-center"
     style={{ backgroundImage: "url('/images/hoteis_overlay.png')" }}>
     {/* Heading */}
    
-
+ <h2 className="text-5xl font-bold mb-3 text-[#045005]">Hotel</h2>
     {/* Description */}
     <p className="text-base mb-4 text-black">
       Selecionamos algumas opções de hotéis próximos ao local do casamento para a sua comodidade.
@@ -119,12 +119,7 @@ return (
     sm:bg-[url('/images/hair_makeup_desktop_background.png')] bg-[url('/images/hair_makeup_mobile_background.png')] px-6"
 >
   {/* Section Title */}
-<h2
-  className="text-5xl font-bold text-[#f06faa] mt-[90px]"
-  style={{ marginBottom: '30px' }} // Change '10px' to your desired value
->
-  Salão
-</h2>
+
 
 
   {/* Rectangular Content Box, Positioned Further Down */}
@@ -133,13 +128,19 @@ return (
     style={{ backgroundImage: "url('/images/hoteis_overlay.png')" }}
   >
 
+    <h2
+      className="text-5xl font-bold mb-3 text-[#f06faa]"
+      style={{ marginBottom: '10px' }} // Change '10px' to your desired value
+    >
+      Cabelo e Make
+    </h2>
     {/* Description */}
-    <p className="text-lg mb-4 text-black">
-      Para facilitar o seu dia, recomendamos alguns profissionais de cabelo e maquiagem próximos ao evento.
-    </p>
+    <p className="text-sm sm:text-lg mb-4 text-black">
+  Para facilitar o seu dia, recomendamos alguns profissionais de cabelo e maquiagem próximos ao evento.
+</p>
 
     {/* Stylist List */}
-    <ul className="space-y-3 text-lg">
+    <ul className="space-y-2 text-base sm:text-lg">
       <li>
         <a
           href="https://www.instagram.com/necessaire_fashion/"

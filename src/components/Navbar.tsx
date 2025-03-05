@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
             Transporte
           </Link>
           <Link href="/#hair-makeup" className="text-gray-700 hover:text-gray-900">
-            Salão
+            Cabelo e Make
           </Link>
           <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
             Lista de Presentes
@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
               Transporte
             </Link>
             <Link href="/#hair-makeup" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
-              Salão
+              Cabelo e Make
             </Link>
             <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               Lista de Presentes
