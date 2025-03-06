@@ -51,7 +51,7 @@ return (
    <section
       id="hoteis"
       className="h-screen flex flex-col items-center justify-center text-white bg-cover bg-center 
-      sm:bg-[url('/images/hotel_desktop_background.gif')] bg-[url('/images/hotel_mobile_background.png')] px-6"
+      sm:bg-[url('/images/hotel_desktop_background.gif')] bg-[url('/images/hotel_mobile_background.gif')] px-6"
       >
       {/* Smaller Content Box (No Background) */}
       <div  className="relative z-10 w-full max-w-lg text-center p-6 bg-cover bg-center"
