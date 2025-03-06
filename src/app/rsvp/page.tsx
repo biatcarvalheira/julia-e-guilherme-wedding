@@ -5,8 +5,9 @@ import FormFacadeEmbed from "@formfacade/embed-react";
 export default function RSVPPage() {
   return (
     <section 
-      className="h-screen flex items-center justify-center bg-[#f06faa] px-4
-      sm:bg-[#f7f7f7] bg-[url('/images/rsvp_form_desktop_background.png')] bg-cover bg-center"
+      className="h-screen flex items-center justify-center px-4 bg-cover bg-center
+      bg-[#f06faa] sm:bg-[#f7f7f7] 
+      bg-[url('/images/transportation_mobile_background.svg')] sm:bg-[url('/images/rsvp_form_desktop_background.png')]"
     >
       <div className="p-6 w-full max-w-3xl flex justify-center">
         <div className="w-full">
