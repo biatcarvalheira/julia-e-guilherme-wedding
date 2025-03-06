@@ -16,26 +16,26 @@ const Navbar: React.FC = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
-          <Link href="/#rsvp_main" className="text-gray-700 hover:text-gray-900">
-            RSVP
+         <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
+            Programação
           </Link>
           <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
             Como Chegar
           </Link>
-          <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
-            Programação
+            <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
+            Transporte
           </Link>
           <Link href="/#hoteis" className="text-gray-700 hover:text-gray-900">
             Hotel
-          </Link>
-          <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
-            Transporte
           </Link>
           <Link href="/#hair-makeup" className="text-gray-700 hover:text-gray-900">
             Cabelo e Make
           </Link>
           <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
             Lista de Presentes
+          </Link>
+          <Link href="/#rsvp_main" className="text-gray-700 hover:text-gray-900">
+            RSVP
           </Link>
         </div>
 
@@ -56,29 +56,26 @@ const Navbar: React.FC = () => {
           </button>
 
           <div className="flex flex-col space-y-6 text-xl">
-            <Link href="#hero" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
-              Início
-            </Link>
-            <Link href="/#rsvp_main" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
-              RSVP
-            </Link>
-            <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
-              Como Chegar
-            </Link>
-            <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
+             <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               Programação
             </Link>
-            <Link href="/#hoteis" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
-              Hotel
+             <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
+              Como Chegar
             </Link>
             <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               Transporte
             </Link>
-            <Link href="/#hair-makeup" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
+             <Link href="/#hoteis" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
+              Hotel
+            </Link>
+             <Link href="/#hair-makeup" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               Cabelo e Make
             </Link>
             <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               Lista de Presentes
+            </Link>
+            <Link href="/#rsvp_main" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
+              RSVP
             </Link>
           </div>
         </div>
