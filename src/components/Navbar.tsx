@@ -16,13 +16,13 @@ const Navbar: React.FC = () => {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
-         <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
+         <Link href="/#wedding-program" className="text-gray-700 hover:text-gray-900">
             Programação
           </Link>
-          <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
+          <Link href="/#how-to-get-there" className="text-gray-700 hover:text-gray-900">
             Como Chegar
           </Link>
-            <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
+            <Link href="/#transportation" className="text-gray-700 hover:text-gray-900">
             Transporte
           </Link>
           <Link href="/#hoteis" className="text-gray-700 hover:text-gray-900">
@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
           <Link href="/#hair-makeup" className="text-gray-700 hover:text-gray-900">
             Cabelo e Make
           </Link>
-          <Link href="/under_construction" className="text-gray-700 hover:text-gray-900">
+          <Link href="/#gift-list" className="text-gray-700 hover:text-gray-900">
             Lista de Presentes
           </Link>
           <Link href="/#rsvp_main" className="text-gray-700 hover:text-gray-900">
@@ -56,13 +56,13 @@ const Navbar: React.FC = () => {
           </button>
 
           <div className="flex flex-col space-y-6 text-xl">
-             <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
+             <Link href="/#wedding-program" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               Programação
             </Link>
-             <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
+             <Link href="/#how-to-get-there" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               Como Chegar
             </Link>
-            <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
+            <Link href="/#transportation" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               Transporte
             </Link>
              <Link href="/#hoteis" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
              <Link href="/#hair-makeup" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               Cabelo e Make
             </Link>
-            <Link href="/under_construction" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
+            <Link href="/#gift-list" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>
               Lista de Presentes
             </Link>
             <Link href="/#rsvp_main" className="text-gray-700 hover:text-gray-900" onClick={() => setIsOpen(false)}>

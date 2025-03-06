@@ -11,3 +11,7 @@ h1, h2, h3, h5, h6 {
 body, h4 {
   font-family: 'Questrial', sans-serif;
 }
+
+.ff-compose {
+  font-size: 10px !important; /* Adjust size as needed */
+}
