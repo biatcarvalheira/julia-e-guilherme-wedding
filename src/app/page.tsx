@@ -49,102 +49,138 @@ return (
 
    {/* Hotel Section */}
    <section
-      id="hoteis"
-      className="h-screen flex flex-col items-center justify-center text-white bg-cover bg-center 
-      sm:bg-[url('/images/hotel_desktop_background.gif')] bg-[url('/images/hotel_mobile_background.gif')] px-6"
-      >
-      {/* Smaller Content Box (No Background) */}
-      <div  className="relative z-10 w-full max-w-lg text-center p-6 bg-cover bg-center"
-      style={{ backgroundImage: "url('/images/hoteis_overlay.png')" }}>
-      {/* Heading */}
-      <h2 className="text-5xl font-bold mb-3 text-[#045005]">Hotel</h2>
-      {/* Description */}
-      <p className="text-base mb-4 text-black">
-         Selecionamos algumas opções de hotéis próximos ao local do casamento para a sua comodidade.
-      </p>
-      {/* Hotel List */}
-      <ul className="space-y-2 text-base">
-         <li>
-            <a
-               href="https://www.labelleprovence.com.br/"
-               target="_blank"
-               rel="noopener noreferrer"
-               className="text-[#045005] hover:text-yellow-500 transition"
-               >
-            Pousada La Belle Provence
-            </a>
-         </li>
-         <li>
-            <a
-               href="https://www.pousadaboutiqueitaipava.com.br/"
-               target="_blank"
-               rel="noopener noreferrer"
-               className="text-[#045005] hover:text-yellow-500 transition"
-               >
-            Pousada Boutique Itaipava
-            </a>
-         </li>
-         <li>
-            <a
-               href="https://www.saison.com.br"
-               target="_blank"
-               rel="noopener noreferrer"
-               className="text-[#045005] hover:text-yellow-500 transition"
-               >
-            Saison Resort & Spa
-            </a>
-         </li>
-         <li>
-            <a
-               href="https://www.kastelitaipava.com.br"
-               target="_blank"
-               rel="noopener noreferrer"
-               className="text-[#045005] hover:text-yellow-500 transition"
-               >
-            Kastell Itaipava
-            </a>
-         </li>
-         <li>
-            <a
-               href="http://www.granjabrasil.com.br/"
-               target="_blank"
-               rel="noopener noreferrer"
-               className="text-[#045005] hover:text-yellow-500 transition"
-               >
-            Hotel Granja Brasil Resort
-            </a>
-         </li>
-         <li>
-            <a
-               href="https://msha.ke/capimlimaoitaipava"
-               target="_blank"
-               rel="noopener noreferrer"
-               className="text-[#045005] hover:text-yellow-500 transition"
-               >
-            Hotel Capim Limão
-            </a>
-         </li>
-      </ul>
-   </div>
-   </section>
-  <section
-      id="how-to-get-there"
-      className="h-screen flex flex-col items-center justify-center text-white bg-cover bg-center 
-      sm:bg-[url('/images/how_to_get_there_desktop_background.gif')] bg-[url('/images/how_to_get_there_mobile_background.gif')] px-6"
-      >
-      {/* Smaller Content Box (No Background) */}
-      <div  className="relative z-10 w-full max-w-lg text-center p-6 bg-cover bg-center"
-        style={{ backgroundImage: "url('/images/hoteis_overlay.png')" }}>
-      {/* Heading */}
-      <h2 className="text-5xl font-bold mb-3 text-[#f06faa]">Como Chegar</h2>
-      <h4 className="text-2xl text-black">Rua Joaquim Agante Moço,157 
-      Itaipava-Petrópolis</h4>
+  id="hoteis"
+  className="relative h-screen flex flex-col items-center justify-center text-white bg-cover bg-center px-6"
+>
+  {/* Video Background for Mobile */}
+  <video
+    className="absolute inset-0 w-full h-full object-cover sm:hidden"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source src="/videos/hotel_mobile_background.mp4" type="video/mp4" />
+  </video>
 
-      {/* Description */}
-    
-</div>
+  {/* Desktop Background (GIF) */}
+  <div
+    className="absolute inset-0 hidden sm:block bg-cover bg-center"
+    style={{ backgroundImage: "url('/images/hotel_desktop_background.gif')" }}
+  ></div>
 
+  {/* Content Box (Foreground) */}
+  <div
+    className="relative z-10 w-full max-w-lg text-center p-6 bg-cover bg-center"
+    style={{ backgroundImage: "url('/images/hoteis_overlay.png')" }}
+  >
+    {/* Heading */}
+    <h2 className="text-5xl font-bold mb-3 text-[#045005]">Hotel</h2>
+
+    {/* Description */}
+    <p className="text-base mb-4 text-black">
+      Selecionamos algumas opções de hotéis próximos ao local do casamento para a sua comodidade.
+    </p>
+
+    {/* Hotel List */}
+    <ul className="space-y-2 text-base">
+      <li>
+        <a
+          href="https://www.labelleprovence.com.br/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#045005] hover:text-yellow-500 transition"
+        >
+          Pousada La Belle Provence
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.pousadaboutiqueitaipava.com.br/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#045005] hover:text-yellow-500 transition"
+        >
+          Pousada Boutique Itaipava
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.saison.com.br"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#045005] hover:text-yellow-500 transition"
+        >
+          Saison Resort & Spa
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.kastelitaipava.com.br"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#045005] hover:text-yellow-500 transition"
+        >
+          Kastell Itaipava
+        </a>
+      </li>
+      <li>
+        <a
+          href="http://www.granjabrasil.com.br/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#045005] hover:text-yellow-500 transition"
+        >
+          Hotel Granja Brasil Resort
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://msha.ke/capimlimaoitaipava"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#045005] hover:text-yellow-500 transition"
+        >
+          Hotel Capim Limão
+        </a>
+      </li>
+    </ul>
+  </div>
 </section>
+
+<section
+  id="how-to-get-there"
+  className="relative h-screen flex flex-col items-center justify-center text-white bg-cover bg-center px-6"
+>
+  {/* Video Background for Mobile */}
+  <video
+    className="absolute inset-0 w-full h-full object-cover sm:hidden"
+    autoPlay
+    loop
+    muted
+    playsInline
+  >
+    <source src="/videos/how_to_get_there_mobile.mp4" type="video/mp4" />
+  </video>
+
+  {/* Desktop Background */}
+  <div
+    className="absolute inset-0 hidden sm:block bg-cover bg-center"
+    style={{ backgroundImage: "url('/images/how_to_get_there_desktop_background.gif')" }}
+  ></div>
+
+  {/* Content Box (Foreground) */}
+  <div
+    className="relative z-10 w-full max-w-lg text-center p-6 bg-cover bg-center"
+    style={{ backgroundImage: "url('/images/hoteis_overlay.png')" }}
+  >
+    <h2 className="text-5xl font-bold mb-3 text-[#f06faa]">Como Chegar</h2>
+    <h4 className="text-2xl text-black">
+      Rua Joaquim Agante Moço, 157 Itaipava-Petrópolis
+    </h4>
+  </div>
+</section>
+
 <section
       id="transportation"
       className="h-screen flex flex-col items-center justify-center text-white bg-cover bg-center 
