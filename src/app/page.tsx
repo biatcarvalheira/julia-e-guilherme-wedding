@@ -176,7 +176,7 @@ return (
   >
     <h2 className="text-5xl font-bold mb-3 text-[#f06faa]">Como Chegar</h2>
     <h4 className="text-2xl text-black">
-      Rua Joaquim Agante Moço, 157 Itaipava-Petrópolis
+      Rua Joaquim Agante Moço, 157, Locanda Bela Vista, Itaipava-Petrópolis
     </h4>
   </div>
 </section>
