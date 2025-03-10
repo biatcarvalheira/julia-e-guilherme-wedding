@@ -1,23 +1,23 @@
-"use client"; // Ensure it's a client-side component
-import Navbar from "@/components/Navbar"; // ✅ Import your Navbar
+"use client"; // Ensure it's a client component
+import Link from "next/link"; // ✅ Make sure this is at the top
+import Image from "next/image";
 
-export default function UnderConstruction() {
+import FormFacadeEmbed from "@formfacade/embed-react";
+
+export default function RSVPPage() {
   return (
-    <section
-      className="h-screen flex flex-col items-center justify-center text-white bg-cover bg-center relative"
-      style={{ backgroundImage: "url('/images/construction-background.jpg')" }} // ✅ Update with your image path
+    <section 
+      className="h-screen flex items-center justify-center px-4 bg-cover bg-center
+      bg-[#f06faa] sm:bg-[#f7f7f7] 
+      bg-[url('/images/rsvp_form_mobile_background.svg')] sm:bg-[url('/images/rsvp_form_desktop_background.png')]"
     >
-      {/* Background Color Overlay */}
-      <div className="absolute inset-0 bg-[#bcd7b4]"></div>
-
-      {/* Navbar - Positioned at the top */}
-      <div className="absolute top-0 left-0 w-full z-20">
-        <Navbar /> {/* ✅ Add Navbar */}
-      </div>
-
-      {/* Content */}
-      <div className="relative text-center z-10">
-        <h1 className="text-5xl font-bold text-[#f06faa]">Em Construção</h1>
+      <div className="p-6 w-full max-w-3xl flex justify-center">
+        <div className="w-full">
+          <FormFacadeEmbed
+            formFacadeURL="https://formfacade.com/include/113988526065686580976/form/1FAIpQLSdjLk0rYy106K7PqcVb6IHwx_MFfIhd0qh9PHdLMAd5Y7n66w/classic.js/?div=ff-compose"
+            onSubmitForm={() => console.log("Form submitted")}
+          />
+        </div>
       </div>
     </section>
   );
