@@ -1,6 +1,4 @@
 "use client"; // Ensure it's a client component
-import Link from "next/link"; // ✅ Make sure this is at the top
-import Image from "next/image";
 
 import FormFacadeEmbed from "@formfacade/embed-react";
 
