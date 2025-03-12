@@ -11,13 +11,11 @@ export default function RSVPPage() {
     >
       <div className="p-6 w-full max-w-3xl flex justify-center">
         <div className="w-full">
-          <FormfacadeEmbed
-
-formFacadeURL="https://formfacade.com/include/113988526065686580976/form/1FAIpQLSdjLk0rYy106K7PqcVb6IHwx_MFfIhd0qh9PHdLMAd5Y7n66w/classic.js/?div=ff-compose"
-
-onSubmitForm={() => console.log('Form submitted')}
-
-/>
+          <FormFacadeEmbed
+            formFacadeURL="https://formfacade.com/include/113988526065686580976/form/1FAIpQLSdjLk0rYy106K7PqcVb6IHwx_MFfIhd0qh9PHdLMAd5Y7n66w/classic.js/?div=ff-compose"
+            onSubmitForm={() => console.log("Form submitted")}
+          />
+        </div>
       </div>
     </section>
   );
