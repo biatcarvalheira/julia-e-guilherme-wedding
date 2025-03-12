@@ -1,4 +1,7 @@
 "use client"; // Ensure it's a client component
+import FormFacadeEmbed from "@formfacade/embed-react";
+
+
 export default function RSVPPage() {
   return (
     <section 
@@ -8,20 +11,13 @@ export default function RSVPPage() {
     >
       <div className="p-6 w-full max-w-3xl flex justify-center">
         <div className="w-full">
-          {/* Direct Google Forms Embed with Responsive iframe */}
-          <div className="my-6 relative" style={{ paddingBottom: '120%' }}>
-            <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSdjLk0rYy106K7PqcVb6IHwx_MFfIhd0qh9PHdLMAd5Y7n66w/viewform?embedded=true"
-              className="absolute top-0 left-0 w-full h-full"
-              frameBorder="0"
-              marginHeight="0"
-              marginWidth="0"
-              title="RSVP Google Form"
-            >
-              Carregando…
-            </iframe>
-          </div>
-        </div>
+          <FormfacadeEmbed
+
+formFacadeURL="https://formfacade.com/include/113988526065686580976/form/1FAIpQLSdjLk0rYy106K7PqcVb6IHwx_MFfIhd0qh9PHdLMAd5Y7n66w/classic.js/?div=ff-compose"
+
+onSubmitForm={() => console.log('Form submitted')}
+
+/>
       </div>
     </section>
   );
