@@ -1,5 +1,4 @@
 "use client"; // Ensure it's a client component
-
 export default function RSVPPage() {
   return (
     <section 
