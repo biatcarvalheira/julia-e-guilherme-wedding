@@ -19,7 +19,7 @@ export default function RSVPPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      await axios.post("https://script.google.com/macros/s/AKfycbyaK7op0A1GnBBub0d_bbuuKbncNR6LXM3eNrieL7KDJaQxqAtq7l90-q1_jx2Entv-/exec", formData);
+      await axios.post("https://script.google.com/macros/s/AKfycbxTVljtvM6-3kQ5VpTvj1j4K9wXEaZnewsMHvSvrOKq3n8MLM7ZRA72gdgfeA7uyG4tcw/exec", formData);
       setSubmitted(true);
     } catch (error) {
       console.error("Erro ao enviar o formulário:", error);
